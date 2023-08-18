@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Js Variables</title>
+</head>
+<body>
+    <h1>JavaScript Variables</h1>
+
+    <h3>Automatically Declare</h3>
+    <pre>
+        x = 5; // Automatic declare and assign value to variable 'x'
+        y = 6;
+        z = x + y;
+        
+        document.getElementById("variable").innerHTML = z;</pre>
+        <pre>
+        x stores the value 5
+        y stores the value 6
+        z stores the value 11
+        </pre>
+        <p>Output</p>
+    <div id="variable"></div>
+    <hr>
+
+
+    <h3>Var Declare</h3>
+    <pre>
+        var a = 10; 
+        var b = 20;
+        var c = a + b;
+
+        document.getElementById("one").innerHTML = c;
+    </pre>
+    <pre>
+        var x stores the value 10
+        var y stores the value 20
+        var z stores the value 30
+    </pre>
+    <p>Output</p>
+    <div id="one"></div>
+    <hr>
+
+
+    <h3>Let Declare</h3>
+    <pre>
+        let d = 56; 
+        let e = 27;
+        let f = d + e;
+
+        document.getElementById("two").innerHTML = c;
+    </pre>
+    <pre>
+        let d stores the value 56
+        let e stores the value 27
+        let f stores the value 83
+    </pre>
+    <p>Output</p>
+    <div id="two"></div>
+    <hr>
+
+
+    <h3>Const Declare</h3>
+    <pre>
+        const g = 94; 
+        const h = 67;
+        const i = g + h;
+
+        document.getElementById("three").innerHTML = c;
+    </pre>
+    <pre>
+        const g stores the value 94
+        const h stores the value 67
+        const i stores the value 161
+    </pre>
+    <p>Output</p>
+    <div id="three"></div>
+    <hr>
+    <br><br>
+
+    <h2>Note</h2>
+    <h4>
+        Variables are Containers for Storing Data
+        <br><br>
+        The var keyword was used in all JavaScript code from 1995 to 2015.
+        <br><br>
+        The let and const keywords were added to JavaScript in 2015.
+        <br><br>
+        The var keyword should only be used in code written for older browsers.</h4>
+        <br><br><br>
+
+        <h2>When to Use var, let, or const?</h2>
+        <h4>
+            1. Always declare variables
+            <br><br>
+            2. Always use const if the value should not be changed
+            <br><br>
+            3. Always use const if the type should not be changed (Arrays and Objects)
+            <br><br>
+            4. Only use let if you can't use const
+            <br><br>
+            5. Only use var if you MUST support old browsers.</h4>
+
+            <br><br>
+
+            <h2>JavaScript Identifiers</h2>
+            <h4>
+                All JavaScript variables must be identified with unique names.
+                <br><br>
+                These unique names are called identifiers.
+                <br><br>
+                Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
+                <br><br>
+                The general rules for constructing names for variables (unique identifiers) are:
+                <br><br>
+                *) Names can contain letters, digits, underscores, and dollar signs.
+                <br><br>
+                *) Names must begin with a letter.
+                <br><br>
+                *) Names can also begin with $ and _ (but we will not use it in this tutorial).
+                <br><br>
+                *) Names are case sensitive (y and Y are different variables).
+                <br><br>
+                *) Reserved words (like JavaScript keywords) cannot be used as names.</h4>
+
+    <script src="function.js"></script>
+</body>
+</html>
